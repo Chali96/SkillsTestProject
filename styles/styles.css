@@ -97,12 +97,16 @@ color: #999999;
     color: #E8E8E8;
 }
 
+.section2-footer a {
+    text-decoration: none;
+}
+
 .section2-information p {
     width: 560px;
 height: 158px;
     font-family: 'Josefin Sans';
 font-style: normal;
-font-weight: 400;
+font-weight: 200;
 font-size: 16px;
 line-height: 26px;
 letter-spacing: 1.6px;
