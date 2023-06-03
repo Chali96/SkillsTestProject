@@ -21,7 +21,7 @@ color: #FFFFFF;
     background-repeat: no-repeat;
     height: 100vh;
     color: #FFFFFF;
-   
+  
 }
 
 .scrolldown{
@@ -29,6 +29,7 @@ color: #FFFFFF;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+margin-top: 80px;
 }
 
 .section1-footer{
@@ -39,30 +40,58 @@ color: #FFFFFF;
     width: 100%;
     height: 80px;
     background: #5474FD;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Aleo';
+
 }
 
-.navbar__menu{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+.navbar__menu a{
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
 }
+
 .titel-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+}
+
+.titel-container h1{
+font-weight: 700;
+font-size: 48px;
+line-height: 26px;
+
+letter-spacing: 4.8px;
+text-transform: uppercase;
+}
+
+.titel-container h6{
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 6.82px;
 }
 
 input[type="text"] {
     width: 500px;
 height: 60px;
-left: 2px;
-top: 2px;
 background: #FFFFFF;
 align-items: center;
 text-align: center;
 letter-spacing: 2.8px;
-
+border: 1px solid #FFFFFF;
 color: #999999;
   }
   
@@ -88,21 +117,27 @@ color: #999999;
 /*Section 2 content*/
 .section2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items:center;
     flex-direction: row;  
     background-image: url(/images/image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh; 
+    color: #E8E8E8;
+
 }
 
-.section2-information{
+.section2-images{
     display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-direction: column;
-    color: #E8E8E8;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column; 
+    gap: 10px;
+}
+
+.img1{
+    margin-left: 80px;
 }
 
 .section2-footer a {
