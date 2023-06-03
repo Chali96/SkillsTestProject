@@ -9,7 +9,10 @@
    height: 63px;
 background: #5474FD;
 color: #FFFFFF;
+}
 
+.btn:hover{
+    background: #283a8c;
 }
 
 /*Section 1 content*/
@@ -65,7 +68,10 @@ color: #999999;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
     letter-spacing: 1.4px;
+  }
 
+  .button:hover{
+    background: #2d3c7d;
   }
 /*Section 1 content */
 
@@ -166,7 +172,7 @@ transform: scaleY(2.1);
     height: 700px;
 }
 
-.section3-box{
+.section3-box, .section4-box{
     color: #FFFFFF;
   width: 540px;
   height: 371px;
@@ -174,7 +180,6 @@ transform: scaleY(2.1);
   mix-blend-mode: normal;
   opacity: 0.9;
   display: flex;
-  justify-content: flex-start;
       flex-direction: column;
 }
 
