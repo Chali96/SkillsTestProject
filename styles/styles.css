@@ -1,6 +1,51 @@
-.content-container-1{
+.content-container{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
+.section1{
+    background-image: url(/images/image\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.titel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    width: 500px;
+height: 60px;
+left: 2px;
+top: 2px;
+background: #FFFFFF;
+align-items: center;
+text-align: center;
+letter-spacing: 2.8px;
+
+color: #999999;
+  }
+  
+  button[type="submit"] {
+    box-sizing: border-box;
+    width: 153px;
+    height: 63px;
+    left: 500px;
+    top: 0px;
+    background: #5474FD;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    letter-spacing: 1.4px;
+
+  }
+  
+  button[type="submit"] i {
+    margin-right: 5px;
+  }
