@@ -214,6 +214,21 @@ align-items: center;
     color: #FFFFFF;
 }
 
+.section5-content{
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+}
+.section5-content img{
+    max-width: 445px;
+height: 284px;
+}
+
+.section5-content-text{
+    width: 668px;
+height: 287px;
+background: #333333;
+}
 
 .section5-footer{
     width: 100%;
